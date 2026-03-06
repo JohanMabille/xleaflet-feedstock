@@ -24,7 +24,7 @@ requirements:
       then:
         - make
   host:
-    - xeus >=5.0.0,<6.0
+    - xeus >=6.0.0,<7.0
     - xproperty >=0.12.1,<0.13.0
     - xwidgets >=0.30,<0.31.0
     - xtensor >=0.27.0,<0.28
