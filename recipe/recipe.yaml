@@ -1,5 +1,5 @@
 context:
-  version: "0.21.0"
+  version: "0.22.0"
   build_number: 0
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/jupyter-xeus/xleaflet/archive/${{ version }}.tar.gz
-  sha256: 6553676a2b634a7e16d03defb4b07c25e413fc834f6e24799ded375c0ba92909
+  sha256: 9ae1b03a7997352331c708c588d4f832cf87c46a887724bfb32e96bce03d9b36
 
 build:
   number: ${{ build_number }}
@@ -24,14 +24,14 @@ requirements:
       then:
         - make
   host:
-    - xeus >=6.0.0,<7.0
-    - xproperty >=0.12.1,<0.13.0
-    - xwidgets >=0.30,<0.31.0
-    - xtensor >=0.27.0,<0.28
+    - xeus >=6.2.0,<7.0
+    - xproperty >=0.13.1,<0.14.0
+    - xwidgets >=0.31,<0.32.0
+    - xtensor >=0.27.2,<0.28
     - nlohmann_json
     - nlohmann_json-abi
   run:
-    - xtensor >=0.27,<0.28
+    - xtensor >=0.27.2,<0.28
 
 tests:
   - package_contents:
