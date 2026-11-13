@@ -1,5 +1,5 @@
 context:
-  version: "0.22.0"
+  version: "0.22.1"
   build_number: 0
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/jupyter-xeus/xleaflet/archive/${{ version }}.tar.gz
-  sha256: 9ae1b03a7997352331c708c588d4f832cf87c46a887724bfb32e96bce03d9b36
+  sha256: 043ecfb4286ae2c43f155fec24955fded7c1bbf0520e88d80b4259befd6a9434
 
 build:
   number: ${{ build_number }}
